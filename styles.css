@@ -1,0 +1,269 @@
+body {
+  background-color: #2b2e4a;
+  margin: 0;
+}
+a {
+  font-family: 'Bitter', sans-serif;
+  color: #2b2e4a;
+  text-decoration: none;
+  margin-top: 1%;
+}
+h1 {
+  font-family: 'Antic Slab', sans-serif;
+  color: #e84545;
+}
+
+h2 {
+  font-family: 'Antic Slab', serif;
+  color: #e84545;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Bitter', sans-serif;
+  color: #903749;
+}
+
+h4 {
+  color: #903749;
+  font-family: 'Bitter', sans-serif;
+}
+
+hr {
+  position: relative;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 80%;
+  border: 8px dotted #53354a;
+  border-style: none none dotted;
+}
+ul {
+  padding-left: 0;
+}
+.li-colour {
+  color: #903749
+}
+
+.top-container {
+  height: 900px;
+}
+
+.mid-container {
+  position: relative;
+}
+
+.bottom-container {
+  margin-top:2%;
+  height: 100px;
+  text-align: center;
+  padding-top: 2%;
+  background-color: #903749;
+}
+
+.text-name {
+  position: relative;
+  text-align: center;
+  top: 50%;
+}
+
+.text-intro {
+  padding-left: 25%;
+  padding-right: 25%;
+  position: relative;
+  text-align: center;
+}
+
+.text-header {
+  margin: 0;
+}
+
+.intro {
+  position:relative;
+}
+
+.row {
+  display: flex;
+  padding-top: 5%;
+  position: relative;
+  margin: auto;
+  width: 50%;
+  text-align: left;
+}
+
+.row-wide {
+  display: flex;
+  padding-top: 5%;
+  position: relative;
+  margin: auto;
+  width: 85%;
+  text-align: left;
+}
+
+.row-wide-listings {
+  padding-top: 3%;
+  position: relative;
+  margin: auto;
+  width: 85%;
+  text-align: left;
+}
+
+.text-left {
+  float: left;
+}
+.text-right {
+  float: right;
+}
+.text-center {
+  text-align: center;
+}
+.icons {
+  display: inline-block;
+  padding-right: 5%;
+  width: 40%;
+  height: 40%;
+}
+.profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+}
+.img-1 {
+  position:absolute;
+  top: 5%;
+  left: 7%;
+  transform: rotate(20deg);
+  width: 60px;
+  height: 60px;
+}
+
+.img-2 {
+  position:absolute;
+  top: 5%;
+  right: 21%;
+  transform: rotate(40deg);
+  width: 60px;
+  height: 60px;
+}
+
+.img-3 {
+  position:absolute;
+  top: 21%;
+  left: 16%;
+  transform: rotate(67deg);
+  width: 60px;
+  height: 60px;
+}
+
+.img-4 {
+  position:absolute;
+  top: 15%;
+  left: 43%;
+  transform: rotate(98deg);
+  width: 60px;
+  height: 60px;
+}
+
+.img-5 {
+  position:absolute;
+  top: 32%;
+  left: 61%;
+  transform: rotate(120deg);
+  width: 60px;
+  height: 60px;
+}
+
+.img-6 {
+  position:absolute;
+  top: 47%;
+  left: 11%;
+  transform: rotate(167deg);
+  width: 60px;
+  height: 60px;
+}
+
+.img-7 {
+  position:absolute;
+  top: 74%;
+  left: 11%;
+  transform: rotate(172deg);
+  width: 60px;
+  height: 60px;
+}
+
+.img-8 {
+  position:absolute;
+  top: 72%;
+  left: 51%;
+  transform: rotate(210deg);
+  width: 60px;
+  height: 60px;
+}
+
+.img-9 {
+  position:absolute;
+  top: 50%;
+  left: 89%;
+  transform: rotate(211deg);
+  width: 60px;
+  height: 60px;
+}
+
+.img-10 {
+  position:absolute;
+  top: 81%;
+  left: 75%;
+  transform: rotate(256deg);
+  width: 60px;
+  height: 60px;
+}
+
+.img-11 {
+  position:absolute;
+  top: 95%;
+  left: 85%;
+  transform: rotate(314deg);
+  width: 60px;
+  height: 60px;
+}
+
+.BUTTON_ZDO {
+   background: #903749;
+   background-image: -webkit-linear-gradient(top, #903749, #53354A);
+   background-image: -moz-linear-gradient(top, #903749, #53354A);
+   background-image: -ms-linear-gradient(top, #903749, #53354A);
+   background-image: -o-linear-gradient(top, #903749, #53354A);
+   background-image: -webkit-gradient(to bottom, #903749, #53354A);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #2B2E4A;
+   font-family: monospace;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 0 auto 0 auto;
+}
+
+.BUTTON_ZDO:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
