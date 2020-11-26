@@ -149,7 +149,7 @@ ul {
 
 .img-3 {
   position:absolute;
-  top: 175px;
+  top: 200px;
   left: 140px;
   transform: rotate(67deg);
   width: 60px;
@@ -204,7 +204,7 @@ ul {
 .img-9 {
   position:absolute;
   top: 400px;
-  left: 750px;
+  left: 800px;
   transform: rotate(211deg);
   width: 60px;
   height: 60px;
